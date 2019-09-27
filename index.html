@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML cheat sheet</title>
+    </head>
+    <body>
+        <a href="blog.html">Go to blog</a>
+        <hr>
+
+        <!-- Headings -->
+        <h1>Welcome to the cheat sheet</h1>
+        <hr>
+        <h1>Header one</h1>
+        <h2>Header two</h2>
+        <h3>Header three</h3>
+        <h4>Header four</h3>
+        <h5>Header five</h3>
+        <h6>Header six</h3>
+        
+        <!-- Paragraph -->
+        <p>
+            Lorem ipsum <strong>dolor sit amet</strong> consectetur <a href="https://www.google.se" target="_blank">adipisicing elit</a>. Quod perferendis saepe nulla. Minima veniam doloribus nostrum perspiciatis earum voluptates exercitationem et, ab aliquam quas modi iure est consequuntur sit repellat.
+        </p>
+        <p>
+            Lorem ipsum <em>dolor sit amet</em> consectetur <mark>adipisicing elit.</mark> Quod perferendis saepe nulla. Minima veniam doloribus nostrum perspiciatis earum voluptates exercitationem et, ab aliquam quas modi iure est consequuntur sit repellat.
+        </p>
+
+        <!-- Unordered List -->
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ul>
+        <!-- Ordered List -->
+        <ol>
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <li>List item 3</li>
+        </ol>
+
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Patricia Ilin</td>
+                    <td>patricia@ilin.com</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>Maria Karlsson</td>
+                    <td>m@karlsson.com</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Petra Karj</td>
+                    <td>petra@kar.com</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <br>
+        <hr>
+        <br>
+
+        <!-- Forms -->
+        <form action="process.php" method="POST">
+            <div>
+                <label>First name</label>
+                <input type="text" name ="firstName" placeholder="Enter first name">
+            </div>
+            <br>
+            <div>
+                <label>Last name</label>
+                <input type="text" name ="lastName" placeholder="Enter last name">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name ="email" placeholder="Enter email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message" placeholder="Max 250 words"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="nonbinary">Non-binary</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" value="25">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+        <!-- Button -->
+        <button>Click me</button>
+        
+        <br>
+        <br>
+
+        <!-- Image -->
+        <img src="https://www.ahlens.se/INTERSHOP/static/BOS/Ahlens-AhlensSE-Site/-/Ahlens/sv_SE/ProductList/38APYHABYV_90401820_Front.jpg" title="Image roap">
+        <br>
+        <a href="images/markup.jpg" target="_blank" title="Image markup">
+            <img src="images/markup.jpg" alt="Image markup" width="500" height="200">
+        </a>
+
+        <br>
+        <br>
+
+        <!-- Quotations:Block quote -->
+        <blockquote cite="https://travelmedia.com">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ut nulla incidunt dicta. Veritatis ea velit repudiandae, facere sed necessitatibus ullam reiciendis accusamus praesentium doloremque? Quo suscipit incidunt itaque saepe sit corporis magnam, tempora quos modi iure voluptatibus quidem, eligendi, ducimus quis at. Recusandae, mollitia pariatur ratione asperiores ex minus.    </blockquote>
+        
+        <!-- Quotations:Abbreviate -->
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+        <!-- Quotations:Cite -->
+        <p title="Can be found on YouTube"><cite>HTML Crash Course For Absolute Beginners</cite> by Traversy Media</p>
+        <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank">Here is the link to the video.</a>
+
+        <footer id="main-footer">
+            <p>Copyright &copy; 2019 My Website</p>
+        </footer>
+    </body>
+</html>
