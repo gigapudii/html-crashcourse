@@ -10,4 +10,4 @@ To this day, I have been missing web design. Therefore, I saw this as a chance t
 To my help, I have been following the tutorial made by Traversy Media: <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank">Link to tutorial</a>. The code itself was written in Visual Studio Code.
 
 ## RESULTS
-To see a summary of what I have learned in this course, please check the uploaded blog.html
+This has resulted into a cheat sheet on which I learned basic syntaxes and tricks. These syntaxes were ultimately applied in practice in the form of a blog page. To see details of what I have learned in this course, please check the uploaded blog.html.
